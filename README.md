@@ -1,39 +1,30 @@
-🔥 Commercial Texas Hold’em Poker Platform | Ready to Launch | Club + AI + Tournament | High Profit System
-# 🎰 德州源码 |德州大厅| 德州扑克完整运营级源码 |  德州源碼|德州撲克|德州俱樂部|德州扑克完整解决方案|德州游戏源码|Mã nguồn Poker |Texas Hold'em Complete Game Source Code|
+[简体中文](README.md) | [繁體中文](README.zh-TW.md) | [English](README.en.md)
 
-> **线上成功运营产品 | 6种玩法+10+运营活动 | 支持iOS/Google Play上架**
+# 德州扑克俱乐部源码（德州私人局） - C++/Tars 大厅、房间与会员服务
 
-[![Contact](https://img.shields.io/badge/联系-TG%3A%40xuzongbin001-blue)](https://t.me/xuzongbin001)
-[![Platform](https://img.shields.io/badge/平台-iOS%20%7C%20Android%20%7C%20H5-green)]()
-[![License](https://img.shields.io/badge/授权-商业源码-red)]()
+本仓库聚焦**德州扑克俱乐部源码**和大厅服务端组件。公开代码包括 C++/Tars Hall 与 GM 服务、房间及玩家生命周期、MySQL 数据访问、商城、签到、商品和服务费接口，以及部分 Unity 场景文件。
 
-💡 Build your own poker platform in minutes  
-💡 快速搭建你的德州扑克平台  
-💡 快速建立你的德州撲克平台  
+> 当前公开目录依赖外部 XGame/Tars 协议和运行环境，不是经过验证的一键部署完整客户端。功能、授权和商业交付范围必须以实际文件、书面清单和验收结果为准。
 
-🔥 Online Multiplayer Poker System  
-🔥 Club System + Agent System  
-🔥 Real-Time Gameplay + Full Source Code  
+## 公开模块
 
-👉 🚀 Live Demo Available  
-👉 📩 Contact Now for Full Version  
-💰 Launch your own poker business  
-💰 Start your poker platform today  
-💰 Launch your poker business today  
-💰 Start earning with your own poker platform  
-## 🚀 项目介绍 / 專案介紹 / Project Overview
+| 模块 | 主要文件 | 可验证内容 |
+| --- | --- | --- |
+| 大厅服务 | `HallServer.*`、`HallServant.tars` | 大厅入口和服务接口 |
+| GM 服务 | `GMServer.*`、`GMServantImp.h` | 管理服务入口和请求处理 |
+| 房间流程 | `roomlogic/`、`timeoutlogic/` | 入桌、离桌、掉线、开局和超时流程 |
+| 数据访问 | `DBOperator.*` | Tars MySQL 数据访问组件 |
+| 商城与签到 | `MallProto.tars`、`GoodsManagerProto.tars`、`SignInProto.tars` | 商城、商品和签到协议 |
+| Unity 场景 | `Production/*.unity` | 登录、大厅和牌桌场景文件；不代表完整 Unity 工程 |
 
-本项目是一套完整的德州扑克平台系统源码  
-本專案是一套完整的德州撲克平台系統原始碼  
-This is a production-ready Texas Hold’em poker platform source code  
+## 适用方向
 
-包含多人实时对战、AI系统、俱乐部与比赛系统  
-包含即時多人對戰、AI系統、俱樂部與錦標賽系統  
-Including multiplayer real-time engine, AI system, club & tournament system  
+- 德州扑克俱乐部、会员和好友桌服务端研究
+- C++/Tars 大厅、房间和玩家生命周期设计
+- 商城、签到、服务费和用户信息协议参考
+- 现有 XGame/Tars 环境中的二次开发评估
 
-👉 可直接商业化运营  
-👉 可直接商業化運營  
-👉 Ready for commercial use  
+
 
 ## ✨ 核心功能 | Core Features
 
@@ -60,82 +51,27 @@ Including multiplayer real-time engine, AI system, club & tournament system
 - **通信**：私有加密协议
 
 
-## 🚀 What You Get | 你将获得 |
+## 产品界面
 
-### 🇺🇸 English
-- Full Texas Holdem poker system  
-- Multiplayer real-time gameplay  
-- Club system + agent system  
-- Ready for deployment & customization  
+截图与公开代码共同展示俱乐部大厅、申请加入、会员管理和牌局设置。界面截图用于说明产品范围，不代表所有运行依赖已经包含在仓库内。
 
-### 🇨🇳 简体中文
-- 完整德州扑克系统源码  
-- 支持多人实时对战  
-- 俱乐部 + 代理体系  
-- 可直接部署或二次开发  
+| 俱乐部大厅 | 俱乐部列表 |
+| --- | --- |
+| ![德州扑克俱乐部源码大厅和俱乐部牌桌](docs/assets/screenshots/01.jpg) | ![德州扑克俱乐部列表和活跃度](docs/assets/screenshots/04.jpg) |
+| 会员管理 | 创建俱乐部牌局 |
+| ![德州扑克俱乐部会员管理界面](docs/assets/screenshots/05.jpg) | ![德州扑克俱乐部创建牌局设置](docs/assets/screenshots/13.jpg) |
 
-### 🇹🇼 繁體中文
-- 完整德州撲克系統源碼  
-- 支援多人即時對戰  
-- 俱樂部 + 代理系統  
-- 可部署與客製化  
-## 💰 获取源码 | Contact
+更多实际界面：[简体中文项目页面](https://masterai-top.github.io/TexasHoldem-Club-Source/zh-cn/)。
 
-✅ 完整服务端源码  
-✅ 完整客户端源码  
-✅ 数据库脚本  
-✅ 美术资源  
-✅ 部署文档  
+## 相关项目
 
-📱 **Telegram：@xuzongbin001**  
-📧 **Email：masterai918@gmail.com**
+- [德州扑克源码完整解决方案](https://github.com/masterai-top/TexasHoldem-Poker-Complete-Solution)
+- [德州扑克积分大厅源码](https://github.com/masterai-top/Texas-Hold-em-Points-Lobby)
+- [德州扑克赛事平台源码](https://github.com/masterai-top/Texas-Holdem-Poker-Tournament-Event-Platform)
+- [CFR 德州扑克 AI](https://github.com/masterai-top/cfr-poker-ai-masterai)
 
-👉 **联系我获取演示站**
+## 联系与合规
 
----
-## ✨ Key Features 
+Telegram：`@xuzongbin001` · Email：`masterai918@gmail.com`
 
-- 🧑‍🤝‍🧑 Multiplayer Poker（多人对战）  
-- 🏆 Club System（俱乐部系统）  
-- 🧩 Agent System（代理体系）  
-- ⚡ Real-time Gameplay（实时对局）  
-- 🌐 Online Server（在线服务器）  
-- 🔧 Customizable（可二次开发）  
-
-
-
-## 🎥 Live Demo | 演示 | 演示
-
-Watch real gameplay below 👇  
-查看真实游戏演示 👇  
-查看真實遊戲演示 👇  
-![选场界面](https://github.com/user-attachments/assets/e2f08a97-e34e-4d0d-8d30-4371ae38a1f8)
-![联赛](https://github.com/user-attachments/assets/205cef98-a6ac-4baf-aba0-f819614cb13c)
-![个人信息](https://github.com/user-attachments/assets/2502bca2-60a8-44da-bb2f-db264f7bfd88)
-![多桌锦标赛1](https://github.com/user-attachments/assets/1e6a7ebe-b566-4fd8-b1e0-9c348e1d1e1a)
-![多桌锦标赛](https://github.com/user-attachments/assets/4138d2fd-f39d-48f3-bca0-13f440ee3375)
-![登录](https://github.com/user-attachments/assets/768fe17d-2c6c-4bea-a145-5a0747e39bca)
-![SNG](https://github.com/user-attachments/assets/57a85358-fc2b-42cd-a5de-4ca6c42d1573)
-<img width="1305" height="741" alt="login_02" src="https://github.com/user-attachments/assets/97220d44-0fe4-4773-950d-585976bcd5a9" />
-![13](https://github.com/user-attachments/assets/567a7355-a48a-4057-9166-99fa87014eb6)
-![12](https://github.com/user-attachments/assets/8bcd9646-f572-452f-b536-3369da1f1772)
-![8](https://github.com/user-attachments/assets/3ebd03ff-335a-449d-a4c1-360cc63c91da)
-<img width="1245" height="717" alt="1659357128650" src="https://github.com/user-attachments/assets/317b54c0-83a8-4e3b-b6a1-94bf31178870" />
-
-
-
-![Stars](https://img.shields.io/github/stars/masterai-top/TexasHoldem-Poker-Multiplayer-Source-Code-Pro?style=social)
-![Last Commit](https://img.shields.io/github/last-commit/masterai-top/TexasHoldem-Poker-Multiplayer-Source-Code-Pro)
-
-⭐ Star 这个仓库，支持优质德州源码持续分享！
-
-## 🔑 Keywords
-
-Texas Holdem, Poker Game, Poker Server, Poker AI, Poker Source Code, Online Poker Platform
-
-
-
-
-
-
-
+请遵守所在地法律、平台规则、隐私与未成年人保护要求。本仓库不鼓励或支持非法赌博用途。
