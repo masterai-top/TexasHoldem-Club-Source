@@ -121,8 +121,7 @@ Watch real gameplay below 👇
 ![12](https://github.com/user-attachments/assets/8bcd9646-f572-452f-b536-3369da1f1772)
 ![8](https://github.com/user-attachments/assets/3ebd03ff-335a-449d-a4c1-360cc63c91da)
 <img width="1245" height="717" alt="1659357128650" src="https://github.com/user-attachments/assets/317b54c0-83a8-4e3b-b6a1-94bf31178870" />
-<img width="1278" height="719" alt="跑马01" src="https://github.com/user-attachments/assets/a424543b-67dc-45cf-9e26-b23460ae0c51" />
-<img width="1224" height="722" alt="牌谱1" src="https://github.com/user-attachments/assets/a4f86f08-f49c-42b6-ae98-4e1ae94eb08b" />
+
 
 
 ![Stars](https://img.shields.io/github/stars/masterai-top/TexasHoldem-Poker-Multiplayer-Source-Code-Pro?style=social)
